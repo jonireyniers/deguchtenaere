@@ -562,6 +562,41 @@ h1, h2, h3, h4, h5, h6 {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #fff;
 }
+.contact-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h4 {
+  font-size: 24px;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.category .row {
+  margin-bottom: 20px;
+}
+
+.category h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.category p {
+  font-size: 16px;
+  margin: 5px 0;
+}
 
 #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
 #fh5co-product-section, .about-section {
@@ -1033,6 +1068,14 @@ input[type="text"] {
   margin-bottom: 5em;
 }
 .heading-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  color: #a5cd4a;
+}
+.heading-section h1 {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
